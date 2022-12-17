@@ -21,7 +21,7 @@ namespace Delegates
             
 
             Employee employee = new Employee();
-            Predicate<int> employeeSalary = s => s > 1000;
+            Predicate<int> employeeSalary = s => s > 20 && s < 40;
             employee.ShowEmployeeInfo(employeeSalary);
         }
         
